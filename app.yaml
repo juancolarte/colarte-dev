@@ -1,5 +1,5 @@
 application: colarte-dev
-version: 1
+version: datastores
 
 runtime: python
 api_version: 1

@@ -1,0 +1,500 @@
+   33  ls
+   34  sudo apt-get install xpdf
+   35  ls
+   36  xpdf PayMentez\ Bar\ Instructions.pdf 
+   37  rm PayMentez\ Bar\ Instructions.pdf 
+   38  ;s
+   39  ls
+   40  cd dev/
+   41  start_mentez 
+   42  ls
+   43  cd
+   44  cat bin/start_mentez 
+   45  /home/colarte/dev/google_appengine/appcfg.py update /home/colarte/dev/paymentez/
+   46  cat bin/start_mentez 
+   47  start_mentez 
+   48  pwd
+   49  echo "/home/colarte/dev/google_appengine/appcfg.py update /home/colarte/dev/paymentez/" > /home/colarte/bin/deploy_app
+   50  ls
+   51  cd
+   52  cd tmp
+   53  cd /tmp
+   54  ls
+   55  nano cosa.py
+   56  nano coso.py
+   57  python -i cosa.py 
+   58  python -i cosa.py  -i coso.py
+   59  python -i cosa.py   coso.py
+   60  man python
+   61  cd
+   62  nano .pythonrc.py
+   63  python
+   64  python -e "import sys;sys.path.append('/usr/local/google_appengine')"
+   65  man python
+   66  export $PYTHONPATH=/usr/local/google_appengine
+   67  export PYTHONPATH=/usr/local/google_appengine
+   68  echo $PYTHONPATH
+   69  python 
+   70  cd dev/paymentez/
+   71  python console.py 
+   72  export PYTHONPATH=/usr/local/google_appengine;/urs/local/google_appengine/libs
+   73  ls /usr/local/google_appengine/lib/
+   74  export PYTHONPATH='/usr/local/google_appengine;/urs/local/google_appengine/lib'
+   75  echo $PYTHONPATH
+   76  python console.py 
+   77  export PYTHONPATH=/usr/local/google_appengine
+   78  python console.py 
+   79  export 
+   80  python console.py 
+   81  export PYTHONPATH='/usr/local/google_appengine:/urs/local/google_appengine/lib'
+   82  python console.py 
+   83  cd ..
+   84  ls
+   85  cd paymentez/
+   86  ls
+   87  less app.yaml 
+   88  /home/colarte/dev/google_appengine/appcfg.py update /home/colarte/dev/paymentez/
+   89  start_mentez 
+   90  /home/colarte/dev/google_appengine/appcfg.py update /home/colarte/dev/paymentez/
+   91  man python
+   92  cd dev/paymentez/
+   93  ls
+   94  python -i ../../.pythonrc.py  con
+   95  python -i ../../.pythonrc.py  
+   96  mcedit ../../.pythonrc.py 
+   97  python -i ../../.pythonrc.py  
+   98  python -i ../../.pythonrc.py   console.py 
+   99  python -i ../../.pythonrc.py   -i console.py 
+  100  mcedit console.py 
+  101  mc
+  102  cd /usr/local/
+  103  ls
+  104  mc 
+  105  sudo mc .  .
+  106  cd
+  107  rm .pythonrc.py 
+  108  ls
+  109  cd dev/paymentez/
+  110  ls
+  111  python console.py 
+  112  mcc
+  113  mc
+  114  ld
+  115  sudo ldconfig
+  116  python console.py 
+  117  echo $PYTHON-LIB
+  118  echo $PYTHON_LIB
+  119  cd ..
+  120  ls google_appengine
+  121  find -iname "handler.py"  google_appengine
+  122  find -iname "handler.py"  google_appengine/
+  123  find google_appengine  -iname "handler.py"  
+  124  cd google_appengine/
+  125  pwd
+  126  PYTHON_LIB=/home/colarte/dev/google_appengine
+  127  export PYTHON_LIB
+  128  cd ..
+  129  cd paymentez/
+  130  python console.py 
+  131  export $PYTHON_LIB
+  132  echo $PYTHON_LIB
+  133  cd paymentez/
+  134  mc
+  135  ls
+  136  mc
+  137  cd ..
+  138  ls
+  139  git status
+  140  ls
+  141  less app.yaml 
+  142  less console.py 
+  143  ls /usr/local/google_appengine/
+  144  ls /usr/local/google_appengine/lib
+  145  aptitude search webob
+  146  sudo apt-get install webob
+  147  sudo apt-get install python-webob
+  148  ls
+  149  cat reports.py
+  150  ls
+  151  less product
+  152  less product.py
+  153  cd
+  154  cd dev
+  155  nano notas
+  156  cd paymentez
+  157  git status
+  158  git pull origin master
+  159  mcedit paymentez/views/new/anunciar.html 
+  160  git st
+  161  git pull origin master
+  162  git status
+  163  git pull origin master
+  164  mcedit paymentez/views/new/anunciar.html 
+  165  git status
+  166  git commit -a
+  167  git add  .
+  168  git commit -a -m ""
+  169  less app.yaml 
+  170  mcedit paymentez/views/new/anunciar.html 
+  171  git pull origin master
+  172  mcedit app.yaml
+  173  mc
+  174  mdedit paymentez/views/new/apps_disp.html 
+  175  mcedit paymentez/views/new/apps_disp.html 
+  176  git status
+  177  git add .
+  178  git commit -a -m "actualizada nueva version .ok"
+  179  git pull origin master
+  180  git push origin master
+  181  cd
+  182  cd dev
+  183  ls
+  184  mdkir GAE
+  185  mkdir GAE
+  186  cd GAE
+  187  mc
+  188  /home/colarte/dev/google_appengine/dev_appserver.py /home/colarte/dev/GAE/shell/
+  189  ls
+  190  cd
+  191  cd ../paymentez/
+  192  ls
+  193  du -hs
+  194  git branch
+  195  cd ..
+  196  cd jobs/
+  197  ls
+  198  mkdir 2nd
+  199  cd 2nd/
+  200  ls
+  201  mcedit form_nuevo.html
+  202  nano form_nuevo.html 
+  203  firefox form_nuevo.html 
+  204  nano form_nuevo.html 
+  205  mcedit form_nuevo.html 
+  206  netstat -l
+  207  ifconfig eth0
+  208  ifconfig wlan0
+  209  ls
+  210  cd dev/GAE/shell/
+  211  ls
+  212  less urlganizer.py 
+  213  mcedit urlganizer.py 
+  214  less urlganizer.py
+  215  mcedit urlganizer.py
+  216  less urlganizer.py
+  217  mc
+  218  mcedit --version
+  219  cd
+  220  cd Downloads/
+  221  ls
+  222  soffice pt-Lan\ Houses\ Distributor\ Program.doc 
+  223  cd ..
+  224  cd dev/jobs/2nd/
+  225  ls
+  226  mcedit form_nuevo.html 
+  227  nano form_nuevo.html 
+  228  cp form_nuevo.html  asi_va.html
+  229  nano form_nuevo.html 
+  230  mcedit form_nuevo.html 
+  231  mc
+  232  ls
+  233  python
+  234  nano mini.py
+  235  python mini.py 
+  236  python -c "import SimpleHTTPServer;SimpleHTTPServer.test()"
+  237  ls
+  238  sudo su
+  239  ls
+  240  mcedit asi_va.html 
+  241  mc
+  242  sudo ldconfig
+  243  mc
+  244  ls /usr/local/
+  245  binA
+  246  ls /usr/local/bin
+  247  /usr/local/bin/mc
+  248  sudo su
+  249  cd Downloads/
+  250  ls
+  251  tar -zxvf mc-4.7.0-pre1.tar.gz 
+  252  cd mc-4.7.0-pre1/
+  253  ls
+  254  ./configure
+  255  apt-cache search gmodule
+  256  sudo apt-get install gobject-introspection-glib-2.0
+  257  sudo ldconfig
+  258  ./configure
+  259  apt-cache search slang
+  260  sudo apt-get install libslang2-modules 
+  261  ./configure
+  262  apt-cache search slang
+  263  sudo apt-get install libslang2-dev
+  264  ./configure
+  265  make 
+  266  make check
+  267  sudo su
+  268  ldconfig
+  269  ls
+  270  cd src
+  271  ls
+  272  ls -lrth
+  273  mc
+  274  mcedit 
+  275  sudo su
+  276  mc
+  277  sudo su
+  278  mc
+  279  sudo su
+  280  ls
+  281  cd dev/paymentez/
+  282  ls
+  283  mc
+  284  ls
+  285  cd ..
+  286  ls
+  287  cd jobs/
+  288  ls
+  289  nano notas
+  290  mplayer /cdrom/chillout_progressive/destination\ lounge\ \[hong\ kong\]/destination\ lounge\ \[hong\ kong\]\ cd1/11.\ this\ is\ heaven.solar\ house\ .mp3 
+  291  sudo su
+  292  vi form_nuevo.html 
+  293  cp form_nuevo.html finally.html
+  294  cp anunciar.html lanhouse.html
+  295  `[20~
+  296  ls
+  297  cd dev/
+  298  ls
+  299  python -c "import SimpleHTTPServer;SimpleHTTPServer.test()"
+  300  touch sample.html
+  301  echo jquery-1.3.2.min.js >> cosa.html
+  302  cd
+  303  cd dev/jobs/
+  304  ls
+  305  cd 2nd/
+  306  ls
+  307  m
+  308  mc
+  309  cd ..
+  310  ls
+  311  less notas 
+  312  cd
+  313  cd dev/paymentez/
+  314  ls
+  315  cd paymentez/
+  316  mc
+  317  cd ..
+  318  mc  . .
+  319  mc
+  320  cd paymentez/
+  321  ls
+  322  cd views/
+  323  cd new/
+  324  ls
+  325  mc 
+  326  cd ..
+  327  ls
+  328  /home/colarte/dev/google_appengine/dev_appserver.py /home/colarte/dev/GAE/shell/
+  329  cd ..
+  330  /home/colarte/dev/google_appengine/dev_appserver.py /home/colarte/dev/paymentez/
+  331  mc
+  332  /home/colarte/dev/google_appengine/dev_appserver.py /home/colarte/dev/paymentez/
+  333  /home/colarte/dev/google_appengine/dev_appserver.py -a 10.1.14.70  /home/colarte/dev/paymentez/
+  334  sudo su
+  335  cd dev/paymentez/public/img/
+  336  l
+  337  netstat -lan
+  338  netstat -ln
+  339  nano
+  340  cd
+  341  gedit cosa.html
+  342  mc
+  343  cd dev/facebox/
+  344  python -c "import SimpleHTTPServer;SimpleHTTPServer.test()"
+  345  mc
+  346  python -c "import SimpleHTTPServer;SimpleHTTPServer.test()"
+  347  mc
+  348  python -c "import SimpleHTTPServer;SimpleHTTPServer.test()"
+  349  sudo su
+  350  mc
+  351  ls
+  352  sudo su
+  353  ifconfig wlan0
+  354  cd dev/paymentez/
+  355  ls
+  356  cd paymentez/views/new/
+  357  ls
+  358  mc
+  359  `
+  360  1
+  361  touch nada
+  362  mkdir di
+  363  diff paymentez.css pay.
+  364  l,s
+  365  ls
+  366  diff paymentez.css pay.css
+  367  ls
+  368  du -hs
+  369  \ cd "`printf "%b" '\0057home\0057colarte\0057dev\0057jobs\00572nd'`"
+  370  touch new_one
+  371  mv new_one new_one.html
+  372  mv facebox.css faceboxsite.css
+  373  mv faceboxsite.css facebox_site.css 
+  374  cd dev/paymentez/
+  375  mc
+  376  cd /tmp/di/
+  377  dif paymentez.css pay.css 
+  378  diff paymentez.css pay.css 
+  379  diff pay.css paymentez.css 
+  380  diff pay.css paymentez.css >diffs
+  381  mc
+  382  OA
+  383  mc
+  384  cd dev/
+  385  cd paymentez/
+  386  git status
+  387  git branch
+  388  mc
+  389  nano
+  390  cd ..
+  391  mc
+  392  touch tempo.html
+  393  ls
+  394  cd dev/paymentez/
+  395  mc
+  396  grep values paymentez/views/new/lanhouse.html 
+  397  grep -R  values paymentez/views/new/lanhouse.html 
+  398  grep -R  value paymentez/views/new/lanhouse.html 
+  399  grep -R  name= paymentez/views/new/lanhouse.html 
+  400  less ../notas 
+  401  less ../jobs/notas 
+  402  mc
+  403  /home/colarte/dev/google_appengine/dev_appserver.py /home/colarte/dev/paymentez/
+  404  /home/colarte/dev/google_appengine/dev_appserver.py -a 10.1.14.70 /home/colarte/dev/paymentez/
+  405  vi lanhouse.html 
+  406  grep -R sdsd .
+  407  ifconfig eth0
+  408  ifconfig wlan0
+  409  cd dev/
+  410  ls
+  411  cd paymentez/
+  412  mc
+  413  nano cta_banco.txt
+  414  OB 
+  415  cd dev/
+  416  ls
+  417  nano notas
+  418  cd paymentez/
+  419  ls
+  420  cd paymentez/
+  421  ls
+  422  cd views/
+  423  grep isNumeric .
+  424  grep -R isNumeric .
+  425  ls
+  426  cd ..
+  427  ls
+  428  mv paymentez oldpaymentez 
+  429  ls
+  430  clear
+  431  /home/colarte/dev/google_appengine/dev_appserver.py -a 10.1.14.70 /home/colarte/dev/paymentez/
+  432  pwd
+  433  cd dev/paymentez/
+  434  git status
+  435  git add .
+  436  git commit -a -m "cambios para lanhouse"
+  437  git status
+  438  git pull origin master
+  439  mc 
+  440  git status
+  441  git add .
+  442  git status
+  443  git pull origin master
+  444  git commit -a -m "arreglo diffs"
+  445  git pull origin master
+  446  /home/colarte/dev/google_appengine/dev_appserver.py -a 10.1.14.70 /home/colarte/dev/paymentez/
+  447  nano app.yaml 
+  448  git status
+  449  git add .
+  450  git commit -a -m "procesa form"
+  451  git status
+  452  git pull origin master
+  453  git push origin master
+  454  /home/colarte/dev/google_appengine/dev_appserver.py -a 10.1.14.70 /home/colarte/dev/paymentez/
+  455  clear
+  456  nano
+  457  cd job
+  458  cd dev
+  459  cd paymentez/
+  460  git status
+  461  git add .
+  462  git status
+  463  mc
+  464  cat /proc/cpuinfo 
+  465  ls
+  466  free -m
+  467  df -h
+  468  sudo cfdisk /dev/sda
+  469  clear
+  470  ls
+  471  mc
+  472  killall firefox-bin
+  473  ps -A
+  474  killall firefox
+  475  ls
+  476  cd paymentez/
+  477  ls
+  478  mc
+  479  cd 
+  480  cd dev
+  481  ls
+  482  mv oldpaymentez/ paymentez
+  483  ls
+  484  cd paymentez/
+  485  ls
+  486  git status
+  487  git branch
+  488  mc
+  489  cd ..
+  490  cd tmporal/
+  491  ls
+  492  mv paymentez/ oldpaymentez
+  493  mc
+  494  sudo su
+  495  cd
+  496  cd dev/paymentez/
+  497  cd paymentez/views/
+  498  c
+  499  mc
+  500  man xterm
+  501  man x
+  502  /home/colarte/dev/google_appengine/dev_appserver.py -a 10.1.14.70 /home/colarte/dev/paymentez/
+  503  cd bin
+  504  ls
+  505  cat deploy_app 
+  506  /home/colarte/dev/google_appengine/dev_appserver.py -a 10.1.14.70 /home/colarte/dev/paymentez/
+  507  /home/colarte/dev/google_appengine/dev_appserver.py -a 10.1.14.70 /home/colarte/dev/GAE/shell/
+  508  cat deploy_app 
+  509  /home/colarte/dev/google_appengine/appcfg.py update  /home/colarte/dev/GAE/shell/
+  510  nano
+  511  ls
+  512  cd
+  513  cd dev/
+  514  ls
+  515  cd GAE/
+  516  ls
+  517* 
+  518  cd ..
+  519  cd paymentez/
+  520  cd controllers/
+  521  ls
+  522  grep -R external_base .
+  523  cd ..
+  524  grep -R external_base .
+  525  mc
+  526  cd
+  527  cd dev/GAE/
+  528  ls
+  529  /home/colarte/dev/google_appengine/appcfg.py update  /home/colarte/dev/GAE/colarte-dev/
+  530  /home/colarte/dev/google_appengine/dev_appserver.py  /home/colarte/dev/GAE/colarte-dev/
+  531  /home/colarte/dev/google_appengine/appcfg.py  update   /home/colarte/dev/GAE/colarte-dev/
+  532  history > golden_hist.
