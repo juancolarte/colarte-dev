@@ -1,0 +1,18 @@
+{% extends "container.html" %}
+
+{% block content %}
+
+
+<form action="/proc_add_category" METHOD="POST">
+
+Categoria Nueva : &nbsp;
+<input type="text" name="category" size=30>
+<br>
+Descripcion : &nbsp;
+<input type="text" name="description" size=50>
+<br>
+<input type=submit value="Agregar">
+</form>
+
+{% endblock %}
+    
