@@ -1,7 +1,6 @@
 
 from google.appengine.ext import db
 
-    
 class Url(db.Model):
     title   = db.StringProperty()
     address = db.StringProperty()

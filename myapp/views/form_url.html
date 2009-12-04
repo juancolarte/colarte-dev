@@ -1,0 +1,21 @@
+{% extends "container.html" %}
+
+{% block content %}
+
+
+<form action="/proc_add_url" METHOD="POST">
+
+Dirección Nueva : &nbsp;
+<input type="text" name="address" size=30>
+<br>
+Descripción : &nbsp;
+<input type="text" name="title" size=50>
+<br>
+<select name="categoria" >
+{{ select_options }}
+</select>
+<input type=submit value="Agregar">
+</form>
+
+{% endblock %}
+    

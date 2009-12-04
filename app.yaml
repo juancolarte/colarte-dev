@@ -36,3 +36,13 @@ handlers:
 
 - url: /listuploadedfiles
   script: main.py
+
+- url: /addurl
+  script: main.py
+
+- url: /proc_add_url
+  script: main.py
+
+- url: /listurl
+  script: main.py
+
