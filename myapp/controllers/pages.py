@@ -16,7 +16,7 @@ class Entrance(webapp.RequestHandler):
 class AddCategory(webapp.RequestHandler):
     def get(self):
         params = {"page_title" : "New Category"}        
-        path = os.path.join(os.path.dirname(__file__), '../views/add_category.html')
+        path = os.path.join(os.path.dirname(__file__), '../views/form_category.html')
         self.response.out.write(template.render(path, params))        
 
 class ProcAddCategory(webapp.RequestHandler):
