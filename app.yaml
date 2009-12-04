@@ -26,3 +26,13 @@ handlers:
 
 - url: /listcategory
   script: main.py
+
+
+- url: /upload_file
+  script: main.py
+
+- url: /proc_file_upload
+  script: main.py
+
+- url: /listuploadedfiles
+  script: main.py

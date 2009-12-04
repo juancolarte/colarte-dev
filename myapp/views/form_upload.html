@@ -1,0 +1,13 @@
+{% extends "container.html" %}
+
+{% block content %}
+
+<form enctype="multipart/form-data" action="/proc_file_upload">
+<input type="file" name="upload_file" /><br>
+title :<input type="text" name="title" />
+
+<input type="submit" />
+</form>
+
+{% endblock %}
+    
