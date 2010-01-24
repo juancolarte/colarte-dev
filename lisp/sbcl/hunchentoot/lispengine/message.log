@@ -1,0 +1,376 @@
+[2010-01-24 05:24:14 [WARNING]] The function *STANDARD-OUTPUT* is undefined, and its name is reserved by ANSI
+CL so that even if it were defined later, the code doing so would not be
+portable.
+[2010-01-24 05:24:14 [WARNING]] Warning while processing connection: The function *STANDARD-OUTPUT* is undefined, and its name is reserved by ANSI
+CL so that even if it were defined later, the code doing so would not be
+portable.
+[2010-01-24 05:24:14 [WARNING]] undefined function: :HTML
+[2010-01-24 05:24:14 [WARNING]] Warning while processing connection: undefined function: :HTML
+[2010-01-24 05:24:14 [WARNING]] undefined function: :TABLE
+[2010-01-24 05:24:14 [WARNING]] Warning while processing connection: undefined function: :TABLE
+[2010-01-24 05:24:14 [WARNING]] undefined function: :TD
+[2010-01-24 05:24:14 [WARNING]] Warning while processing connection: undefined function: :TD
+[2010-01-24 05:24:14 [WARNING]] undefined function: :TR
+[2010-01-24 05:24:14 [WARNING]] Warning while processing connection: undefined function: :TR
+[2010-01-24 05:24:14 [WARNING]] undefined function: WITH-HTML-OUTPUT
+[2010-01-24 05:24:14 [WARNING]] Warning while processing connection: undefined function: WITH-HTML-OUTPUT
+[2010-01-24 05:24:14 [ERROR]] The function *STANDARD-OUTPUT* is undefined.
+[2010-01-24 05:24:34 [ERROR]] Error while processing connection: I/O timeout reading #<SB-SYS:FD-STREAM for "a socket" {5B0B70C9}>.
+[2010-01-24 05:24:55 [ERROR]] USE-PACKAGE #<PACKAGE "CL-WHO"> causes name-conflicts in
+#<PACKAGE "COMMON-LISP-USER"> between the following symbols:
+  CL-WHO:WITH-HTML-OUTPUT, COMMON-LISP-USER::WITH-HTML-OUTPUT
+See also:
+  The ANSI Standard, Section 11.1.1.2.5
+[2010-01-24 05:25:02 [ERROR]] USE-PACKAGE #<PACKAGE "CL-WHO"> causes name-conflicts in
+#<PACKAGE "COMMON-LISP-USER"> between the following symbols:
+  CL-WHO:WITH-HTML-OUTPUT, COMMON-LISP-USER::WITH-HTML-OUTPUT
+See also:
+  The ANSI Standard, Section 11.1.1.2.5
+[2010-01-24 05:27:13 [WARNING]] undefined function: PARAMETER
+[2010-01-24 05:27:13 [WARNING]] Warning while processing connection: undefined function: PARAMETER
+[2010-01-24 05:27:13 [ERROR]] The function PARAMETER is undefined.
+[2010-01-24 05:27:34 [ERROR]] Error while processing connection: I/O timeout reading #<SB-SYS:FD-STREAM for "a socket" {5B0B70A1}>.
+[2010-01-24 05:28:03 [ERROR]] Error while processing connection: The value #<PACKAGE "LISPENGINE"> is not of type SEQUENCE.
+[2010-01-24 05:28:42 [ERROR]] Error while processing connection: The value #<PACKAGE "LISPENGINE"> is not of type SEQUENCE.
+[2010-01-24 05:30:14 [ERROR]] Error while processing connection: The value #<PACKAGE "LISPENGINE"> is not of type SEQUENCE.
+[2010-01-24 05:30:39 [ERROR]] Error while processing connection: I/O timeout reading #<SB-SYS:FD-STREAM for "a socket" {5A4F4F21}>.
+[2010-01-24 05:31:20 [ERROR]] Error while processing connection: I/O timeout reading #<SB-SYS:FD-STREAM for "a socket" {5A5DA851}>.
+[2010-01-24 05:33:12 [ERROR]] Error while processing connection: I/O timeout reading #<SB-SYS:FD-STREAM for "a socket" {5A604F49}>.
+[2010-01-24 05:33:44 [ERROR]] Error while processing connection: I/O timeout reading #<SB-SYS:FD-STREAM for "a socket" {5A705A61}>.
+[2010-01-24 05:53:43 [ERROR]] failed to find the WRITE-DATE of /usr/home/colarte/dev/lispengine/../document-root/templates/welcome.htmlf:
+  No such file or directory
+[2010-01-24 05:54:03 [ERROR]] Error while processing connection: I/O timeout reading #<SB-SYS:FD-STREAM for "a socket" {5AFF40A1}>.
+[2010-01-24 05:54:48 [WARNING]] New template printer for #P"/usr/home/colarte/dev/lispengine/document-root/templates/header.htmlf" created
+[2010-01-24 05:54:48 [WARNING]] Warning while processing connection: New template printer for #P"/usr/home/colarte/dev/lispengine/document-root/templates/header.htmlf" created
+[2010-01-24 05:54:48 [WARNING]] New template printer for #P"/usr/home/colarte/dev/lispengine/document-root/templates/footer.htmlf" created
+[2010-01-24 05:54:48 [WARNING]] Warning while processing connection: New template printer for #P"/usr/home/colarte/dev/lispengine/document-root/templates/footer.htmlf" created
+[2010-01-24 05:54:48 [WARNING]] New template printer for #P"/usr/home/colarte/dev/lispengine/document-root/templates/welcome.htmlf" created
+[2010-01-24 05:54:48 [WARNING]] Warning while processing connection: New template printer for #P"/usr/home/colarte/dev/lispengine/document-root/templates/welcome.htmlf" created
+[2010-01-24 05:55:09 [ERROR]] Error while processing connection: I/O timeout reading #<SB-SYS:FD-STREAM for "a socket" {5A3F2F49}>.
+[2010-01-24 05:55:21 [ERROR]] Error while processing connection: I/O timeout reading #<SB-SYS:FD-STREAM for "a socket" {5AFF50A1}>.
+[2010-01-24 05:55:39 [WARNING]] The function *STANDARD-OUTPUT* is undefined, and its name is reserved by ANSI
+CL so that even if it were defined later, the code doing so would not be
+portable.
+[2010-01-24 05:55:39 [WARNING]] Warning while processing connection: The function *STANDARD-OUTPUT* is undefined, and its name is reserved by ANSI
+CL so that even if it were defined later, the code doing so would not be
+portable.
+[2010-01-24 05:55:39 [WARNING]] undefined function: :BODY
+[2010-01-24 05:55:39 [WARNING]] Warning while processing connection: undefined function: :BODY
+[2010-01-24 05:55:39 [WARNING]] undefined function: :H1
+[2010-01-24 05:55:39 [WARNING]] Warning while processing connection: undefined function: :H1
+[2010-01-24 05:55:39 [WARNING]] undefined function: :HTML
+[2010-01-24 05:55:39 [WARNING]] Warning while processing connection: undefined function: :HTML
+[2010-01-24 05:55:39 [WARNING]] undefined function: :P
+[2010-01-24 05:55:39 [WARNING]] Warning while processing connection: undefined function: :P
+[2010-01-24 05:55:39 [WARNING]] undefined function: WITH-HTML-OUTPUT
+[2010-01-24 05:55:39 [WARNING]] Warning while processing connection: undefined function: WITH-HTML-OUTPUT
+[2010-01-24 05:55:39 [ERROR]] The function *STANDARD-OUTPUT* is undefined.
+[2010-01-24 05:57:12 [WARNING]] The function *STANDARD-OUTPUT* is undefined, and its name is reserved by ANSI
+CL so that even if it were defined later, the code doing so would not be
+portable.
+[2010-01-24 05:57:12 [WARNING]] Warning while processing connection: The function *STANDARD-OUTPUT* is undefined, and its name is reserved by ANSI
+CL so that even if it were defined later, the code doing so would not be
+portable.
+[2010-01-24 05:57:12 [WARNING]] undefined function: :BODY
+[2010-01-24 05:57:13 [WARNING]] Warning while processing connection: undefined function: :BODY
+[2010-01-24 05:57:13 [WARNING]] undefined function: :H1
+[2010-01-24 05:57:13 [WARNING]] Warning while processing connection: undefined function: :H1
+[2010-01-24 05:57:13 [WARNING]] undefined function: :HTML
+[2010-01-24 05:57:13 [WARNING]] Warning while processing connection: undefined function: :HTML
+[2010-01-24 05:57:13 [WARNING]] undefined function: :P
+[2010-01-24 05:57:13 [WARNING]] Warning while processing connection: undefined function: :P
+[2010-01-24 05:57:13 [WARNING]] undefined function: WITH-HTML-OUTPUT
+[2010-01-24 05:57:13 [WARNING]] Warning while processing connection: undefined function: WITH-HTML-OUTPUT
+[2010-01-24 05:57:13 [ERROR]] The function *STANDARD-OUTPUT* is undefined.
+[2010-01-24 05:57:18 [WARNING]] New template printer for #P"/usr/home/colarte/dev/lispengine/document-root/templates/header.htmlf" created
+[2010-01-24 05:57:18 [WARNING]] Warning while processing connection: New template printer for #P"/usr/home/colarte/dev/lispengine/document-root/templates/header.htmlf" created
+[2010-01-24 05:57:18 [WARNING]] New template printer for #P"/usr/home/colarte/dev/lispengine/document-root/templates/footer.htmlf" created
+[2010-01-24 05:57:18 [WARNING]] Warning while processing connection: New template printer for #P"/usr/home/colarte/dev/lispengine/document-root/templates/footer.htmlf" created
+[2010-01-24 05:57:18 [WARNING]] New template printer for #P"/usr/home/colarte/dev/lispengine/document-root/templates/welcome.htmlf" created
+[2010-01-24 05:57:18 [WARNING]] Warning while processing connection: New template printer for #P"/usr/home/colarte/dev/lispengine/document-root/templates/welcome.htmlf" created
+[2010-01-24 05:57:26 [WARNING]] The function *STANDARD-OUTPUT* is undefined, and its name is reserved by ANSI
+CL so that even if it were defined later, the code doing so would not be
+portable.
+[2010-01-24 05:57:26 [WARNING]] Warning while processing connection: The function *STANDARD-OUTPUT* is undefined, and its name is reserved by ANSI
+CL so that even if it were defined later, the code doing so would not be
+portable.
+[2010-01-24 05:57:26 [WARNING]] undefined function: :FORM
+[2010-01-24 05:57:26 [WARNING]] Warning while processing connection: undefined function: :FORM
+[2010-01-24 05:57:26 [WARNING]] undefined function: :INPUT
+[2010-01-24 05:57:26 [WARNING]] Warning while processing connection: undefined function: :INPUT
+[2010-01-24 05:57:26 [WARNING]] undefined function: PARAMETER
+[2010-01-24 05:57:26 [WARNING]] Warning while processing connection: undefined function: PARAMETER
+[2010-01-24 05:57:26 [WARNING]] undefined function: :TD
+[2010-01-24 05:57:26 [WARNING]] Warning while processing connection: undefined function: :TD
+[2010-01-24 05:57:26 [WARNING]] undefined function: :TR
+[2010-01-24 05:57:26 [WARNING]] Warning while processing connection: undefined function: :TR
+[2010-01-24 05:57:26 [WARNING]] undefined function: WITH-HTML-OUTPUT-TO-STRING
+[2010-01-24 05:57:26 [WARNING]] Warning while processing connection: undefined function: WITH-HTML-OUTPUT-TO-STRING
+[2010-01-24 05:57:26 [ERROR]] The function PARAMETER is undefined.
+[2010-01-24 06:06:41 [WARNING]] The function *STANDARD-OUTPUT* is undefined, and its name is reserved by ANSI
+CL so that even if it were defined later, the code doing so would not be
+portable.
+[2010-01-24 06:06:42 [WARNING]] Warning while processing connection: The function *STANDARD-OUTPUT* is undefined, and its name is reserved by ANSI
+CL so that even if it were defined later, the code doing so would not be
+portable.
+[2010-01-24 06:06:42 [WARNING]] undefined function: :FORM
+[2010-01-24 06:06:42 [WARNING]] Warning while processing connection: undefined function: :FORM
+[2010-01-24 06:06:42 [WARNING]] undefined function: :INPUT
+[2010-01-24 06:06:42 [WARNING]] Warning while processing connection: undefined function: :INPUT
+[2010-01-24 06:06:42 [WARNING]] undefined function: PARAMETER
+[2010-01-24 06:06:42 [WARNING]] Warning while processing connection: undefined function: PARAMETER
+[2010-01-24 06:06:42 [WARNING]] undefined function: :TD
+[2010-01-24 06:06:42 [WARNING]] Warning while processing connection: undefined function: :TD
+[2010-01-24 06:06:42 [WARNING]] undefined function: :TR
+[2010-01-24 06:06:42 [WARNING]] Warning while processing connection: undefined function: :TR
+[2010-01-24 06:06:42 [WARNING]] undefined function: WITH-HTML-OUTPUT-TO-STRING
+[2010-01-24 06:06:42 [WARNING]] Warning while processing connection: undefined function: WITH-HTML-OUTPUT-TO-STRING
+[2010-01-24 06:06:42 [ERROR]] The function PARAMETER is undefined.
+[2010-01-24 06:06:55 [WARNING]] The function *STANDARD-OUTPUT* is undefined, and its name is reserved by ANSI
+CL so that even if it were defined later, the code doing so would not be
+portable.
+[2010-01-24 06:06:55 [WARNING]] Warning while processing connection: The function *STANDARD-OUTPUT* is undefined, and its name is reserved by ANSI
+CL so that even if it were defined later, the code doing so would not be
+portable.
+[2010-01-24 06:06:55 [WARNING]] undefined function: :BODY
+[2010-01-24 06:06:55 [WARNING]] Warning while processing connection: undefined function: :BODY
+[2010-01-24 06:06:55 [WARNING]] undefined function: :H1
+[2010-01-24 06:06:55 [WARNING]] Warning while processing connection: undefined function: :H1
+[2010-01-24 06:06:55 [WARNING]] undefined function: :HTML
+[2010-01-24 06:06:55 [WARNING]] Warning while processing connection: undefined function: :HTML
+[2010-01-24 06:06:55 [WARNING]] undefined function: :P
+[2010-01-24 06:06:55 [WARNING]] Warning while processing connection: undefined function: :P
+[2010-01-24 06:06:55 [WARNING]] undefined function: WITH-HTML-OUTPUT
+[2010-01-24 06:06:55 [WARNING]] Warning while processing connection: undefined function: WITH-HTML-OUTPUT
+[2010-01-24 06:06:55 [ERROR]] The function *STANDARD-OUTPUT* is undefined.
+[2010-01-24 06:07:15 [ERROR]] Error while processing connection: I/O timeout reading #<SB-SYS:FD-STREAM for "a socket" {5AFF80B9}>.
+[2010-01-24 06:07:33 [ERROR]] The function *STANDARD-OUTPUT* is undefined.
+[2010-01-24 06:07:54 [ERROR]] Error while processing connection: I/O timeout reading #<SB-SYS:FD-STREAM for "a socket" {5A3E4F01}>.
+[2010-01-24 06:08:31 [WARNING]] The function *STANDARD-OUTPUT* is undefined, and its name is reserved by ANSI
+CL so that even if it were defined later, the code doing so would not be
+portable.
+[2010-01-24 06:08:31 [WARNING]] Warning while processing connection: The function *STANDARD-OUTPUT* is undefined, and its name is reserved by ANSI
+CL so that even if it were defined later, the code doing so would not be
+portable.
+[2010-01-24 06:08:31 [WARNING]] undefined function: :BODY
+[2010-01-24 06:08:31 [WARNING]] Warning while processing connection: undefined function: :BODY
+[2010-01-24 06:08:31 [WARNING]] undefined function: :H1
+[2010-01-24 06:08:31 [WARNING]] Warning while processing connection: undefined function: :H1
+[2010-01-24 06:08:31 [WARNING]] undefined function: :HTML
+[2010-01-24 06:08:32 [WARNING]] Warning while processing connection: undefined function: :HTML
+[2010-01-24 06:08:32 [WARNING]] undefined function: :P
+[2010-01-24 06:08:32 [WARNING]] Warning while processing connection: undefined function: :P
+[2010-01-24 06:08:32 [WARNING]] undefined function: WITH-HTML-OUTPUT
+[2010-01-24 06:08:32 [WARNING]] Warning while processing connection: undefined function: WITH-HTML-OUTPUT
+[2010-01-24 06:08:32 [ERROR]] The function *STANDARD-OUTPUT* is undefined.
+[2010-01-24 06:08:43 [ERROR]] The function *STANDARD-OUTPUT* is undefined.
+[2010-01-24 06:08:50 [WARNING]] The function *STANDARD-OUTPUT* is undefined, and its name is reserved by ANSI
+CL so that even if it were defined later, the code doing so would not be
+portable.
+[2010-01-24 06:08:50 [WARNING]] Warning while processing connection: The function *STANDARD-OUTPUT* is undefined, and its name is reserved by ANSI
+CL so that even if it were defined later, the code doing so would not be
+portable.
+[2010-01-24 06:08:50 [WARNING]] undefined function: :FORM
+[2010-01-24 06:08:50 [WARNING]] Warning while processing connection: undefined function: :FORM
+[2010-01-24 06:08:50 [WARNING]] undefined function: :INPUT
+[2010-01-24 06:08:50 [WARNING]] Warning while processing connection: undefined function: :INPUT
+[2010-01-24 06:08:50 [WARNING]] undefined function: PARAMETER
+[2010-01-24 06:08:50 [WARNING]] Warning while processing connection: undefined function: PARAMETER
+[2010-01-24 06:08:50 [WARNING]] undefined function: :TD
+[2010-01-24 06:08:50 [WARNING]] Warning while processing connection: undefined function: :TD
+[2010-01-24 06:08:50 [WARNING]] undefined function: :TR
+[2010-01-24 06:08:50 [WARNING]] Warning while processing connection: undefined function: :TR
+[2010-01-24 06:08:50 [WARNING]] undefined function: WITH-HTML-OUTPUT-TO-STRING
+[2010-01-24 06:08:50 [WARNING]] Warning while processing connection: undefined function: WITH-HTML-OUTPUT-TO-STRING
+[2010-01-24 06:08:50 [ERROR]] The function PARAMETER is undefined.
+[2010-01-24 06:09:15 [WARNING]] The function *STANDARD-OUTPUT* is undefined, and its name is reserved by ANSI
+CL so that even if it were defined later, the code doing so would not be
+portable.
+[2010-01-24 06:09:16 [WARNING]] Warning while processing connection: The function *STANDARD-OUTPUT* is undefined, and its name is reserved by ANSI
+CL so that even if it were defined later, the code doing so would not be
+portable.
+[2010-01-24 06:09:16 [WARNING]] undefined function: :FORM
+[2010-01-24 06:09:16 [WARNING]] Warning while processing connection: undefined function: :FORM
+[2010-01-24 06:09:16 [WARNING]] undefined function: :INPUT
+[2010-01-24 06:09:16 [WARNING]] Warning while processing connection: undefined function: :INPUT
+[2010-01-24 06:09:16 [WARNING]] undefined function: PARAMETER
+[2010-01-24 06:09:16 [WARNING]] Warning while processing connection: undefined function: PARAMETER
+[2010-01-24 06:09:16 [WARNING]] undefined function: :TD
+[2010-01-24 06:09:16 [WARNING]] Warning while processing connection: undefined function: :TD
+[2010-01-24 06:09:16 [WARNING]] undefined function: :TR
+[2010-01-24 06:09:16 [WARNING]] Warning while processing connection: undefined function: :TR
+[2010-01-24 06:09:16 [WARNING]] undefined function: WITH-HTML-OUTPUT-TO-STRING
+[2010-01-24 06:09:16 [WARNING]] Warning while processing connection: undefined function: WITH-HTML-OUTPUT-TO-STRING
+[2010-01-24 06:09:16 [ERROR]] The function PARAMETER is undefined.
+[2010-01-24 06:09:23 [WARNING]] The function *STANDARD-OUTPUT* is undefined, and its name is reserved by ANSI
+CL so that even if it were defined later, the code doing so would not be
+portable.
+[2010-01-24 06:09:23 [WARNING]] Warning while processing connection: The function *STANDARD-OUTPUT* is undefined, and its name is reserved by ANSI
+CL so that even if it were defined later, the code doing so would not be
+portable.
+[2010-01-24 06:09:23 [WARNING]] undefined function: :BODY
+[2010-01-24 06:09:23 [WARNING]] Warning while processing connection: undefined function: :BODY
+[2010-01-24 06:09:23 [WARNING]] undefined function: :H1
+[2010-01-24 06:09:23 [WARNING]] Warning while processing connection: undefined function: :H1
+[2010-01-24 06:09:23 [WARNING]] undefined function: :HTML
+[2010-01-24 06:09:23 [WARNING]] Warning while processing connection: undefined function: :HTML
+[2010-01-24 06:09:23 [WARNING]] undefined function: :P
+[2010-01-24 06:09:23 [WARNING]] Warning while processing connection: undefined function: :P
+[2010-01-24 06:09:23 [WARNING]] undefined function: WITH-HTML-OUTPUT
+[2010-01-24 06:09:23 [WARNING]] Warning while processing connection: undefined function: WITH-HTML-OUTPUT
+[2010-01-24 06:09:23 [ERROR]] The function *STANDARD-OUTPUT* is undefined.
+[2010-01-24 06:09:29 [ERROR]] The function *STANDARD-OUTPUT* is undefined.
+[2010-01-24 06:09:32 [ERROR]] The function *STANDARD-OUTPUT* is undefined.
+[2010-01-24 06:09:38 [ERROR]] The function *STANDARD-OUTPUT* is undefined.
+[2010-01-24 06:09:58 [ERROR]] Error while processing connection: I/O timeout reading #<SB-SYS:FD-STREAM for "a socket" {5B0B70B9}>.
+[2010-01-24 06:10:48 [WARNING]] The function *STANDARD-OUTPUT* is undefined, and its name is reserved by ANSI
+CL so that even if it were defined later, the code doing so would not be
+portable.
+[2010-01-24 06:10:48 [WARNING]] Warning while processing connection: The function *STANDARD-OUTPUT* is undefined, and its name is reserved by ANSI
+CL so that even if it were defined later, the code doing so would not be
+portable.
+[2010-01-24 06:10:48 [WARNING]] undefined function: :HTML
+[2010-01-24 06:10:48 [WARNING]] Warning while processing connection: undefined function: :HTML
+[2010-01-24 06:10:48 [WARNING]] undefined function: :TABLE
+[2010-01-24 06:10:48 [WARNING]] Warning while processing connection: undefined function: :TABLE
+[2010-01-24 06:10:48 [WARNING]] undefined function: :TD
+[2010-01-24 06:10:48 [WARNING]] Warning while processing connection: undefined function: :TD
+[2010-01-24 06:10:48 [WARNING]] undefined function: :TR
+[2010-01-24 06:10:48 [WARNING]] Warning while processing connection: undefined function: :TR
+[2010-01-24 06:10:48 [WARNING]] undefined function: WITH-HTML-OUTPUT
+[2010-01-24 06:10:48 [WARNING]] Warning while processing connection: undefined function: WITH-HTML-OUTPUT
+[2010-01-24 06:10:48 [ERROR]] The function *STANDARD-OUTPUT* is undefined.
+[2010-01-24 06:11:08 [ERROR]] Error while processing connection: I/O timeout reading #<SB-SYS:FD-STREAM for "a socket" {5B0B80D9}>.
+[2010-01-24 06:11:16 [ERROR]] The function :TD is undefined.
+[2010-01-24 06:11:18 [ERROR]] The function :TD is undefined.
+[2010-01-24 06:11:38 [ERROR]] Error while processing connection: I/O timeout reading #<SB-SYS:FD-STREAM for "a socket" {5A510F49}>.
+[2010-01-24 06:13:07 [ERROR]] Error while processing connection: The value #<PACKAGE "CL-WHO"> is not of type SEQUENCE.
+[2010-01-24 06:13:08 [ERROR]] Error while processing connection: The value #<PACKAGE "CL-WHO"> is not of type SEQUENCE.
+[2010-01-24 06:13:27 [ERROR]] Error while processing connection: The value #<PACKAGE "CL-WHO"> is not of type SEQUENCE.
+[2010-01-24 06:13:43 [WARNING]] undefined function: PARAMETER
+[2010-01-24 06:13:43 [WARNING]] Warning while processing connection: undefined function: PARAMETER
+[2010-01-24 06:13:43 [ERROR]] The function PARAMETER is undefined.
+[2010-01-24 06:14:03 [ERROR]] Error while processing connection: I/O timeout reading #<SB-SYS:FD-STREAM for "a socket" {5A4E7EF9}>.
+[2010-01-24 06:14:14 [WARNING]] undefined function: PARAMETER
+[2010-01-24 06:14:14 [WARNING]] Warning while processing connection: undefined function: PARAMETER
+[2010-01-24 06:14:14 [ERROR]] The function PARAMETER is undefined.
+[2010-01-24 06:14:16 [WARNING]] undefined function: PARAMETER
+[2010-01-24 06:14:16 [WARNING]] Warning while processing connection: undefined function: PARAMETER
+[2010-01-24 06:14:16 [ERROR]] The function PARAMETER is undefined.
+[2010-01-24 06:14:25 [WARNING]] undefined function: PARAMETER
+[2010-01-24 06:14:25 [WARNING]] Warning while processing connection: undefined function: PARAMETER
+[2010-01-24 06:14:25 [ERROR]] The function PARAMETER is undefined.
+[2010-01-24 06:14:30 [ERROR]] Error while processing connection: The value #<PACKAGE "CL-WHO"> is not of type SEQUENCE.
+[2010-01-24 06:14:57 [ERROR]] Error while processing connection: I/O timeout reading #<SB-SYS:FD-STREAM for "a socket" {5A696F41}>.
+[2010-01-24 06:15:45 [WARNING]] The function *STANDARD-OUTPUT* is undefined, and its name is reserved by ANSI
+CL so that even if it were defined later, the code doing so would not be
+portable.
+[2010-01-24 06:15:46 [WARNING]] Warning while processing connection: The function *STANDARD-OUTPUT* is undefined, and its name is reserved by ANSI
+CL so that even if it were defined later, the code doing so would not be
+portable.
+[2010-01-24 06:15:46 [WARNING]] undefined function: :BODY
+[2010-01-24 06:15:46 [WARNING]] Warning while processing connection: undefined function: :BODY
+[2010-01-24 06:15:46 [WARNING]] undefined function: :H1
+[2010-01-24 06:15:46 [WARNING]] Warning while processing connection: undefined function: :H1
+[2010-01-24 06:15:46 [WARNING]] undefined function: :HTML
+[2010-01-24 06:15:46 [WARNING]] Warning while processing connection: undefined function: :HTML
+[2010-01-24 06:15:46 [WARNING]] undefined function: :P
+[2010-01-24 06:15:46 [WARNING]] Warning while processing connection: undefined function: :P
+[2010-01-24 06:15:46 [WARNING]] undefined function: WITH-HTML-OUTPUT
+[2010-01-24 06:15:46 [WARNING]] Warning while processing connection: undefined function: WITH-HTML-OUTPUT
+[2010-01-24 06:15:46 [ERROR]] The function *STANDARD-OUTPUT* is undefined.
+[2010-01-24 06:15:53 [ERROR]] Error while processing connection: The value #<PACKAGE "CL-WHO"> is not of type SEQUENCE.
+[2010-01-24 06:18:21 [ERROR]] Error while processing connection: The value #<PACKAGE "CL-WHO"> is not of type SEQUENCE.
+[2010-01-24 06:18:33 [WARNING]] undefined function: PARAMETER
+[2010-01-24 06:18:33 [WARNING]] Warning while processing connection: undefined function: PARAMETER
+[2010-01-24 06:18:33 [ERROR]] The function PARAMETER is undefined.
+[2010-01-24 06:18:53 [ERROR]] Error while processing connection: I/O timeout reading #<SB-SYS:FD-STREAM for "a socket" {599EFCB1}>.
+[2010-01-24 06:18:56 [ERROR]] Error while processing connection: The value #<PACKAGE "HUNCHENTOOT"> is not of type SEQUENCE.
+[2010-01-24 06:19:19 [WARNING]] The function *STANDARD-OUTPUT* is undefined, and its name is reserved by ANSI
+CL so that even if it were defined later, the code doing so would not be
+portable.
+[2010-01-24 06:19:19 [WARNING]] Warning while processing connection: The function *STANDARD-OUTPUT* is undefined, and its name is reserved by ANSI
+CL so that even if it were defined later, the code doing so would not be
+portable.
+[2010-01-24 06:19:19 [WARNING]] undefined function: :HTML
+[2010-01-24 06:19:19 [WARNING]] Warning while processing connection: undefined function: :HTML
+[2010-01-24 06:19:19 [WARNING]] undefined function: :TABLE
+[2010-01-24 06:19:19 [WARNING]] Warning while processing connection: undefined function: :TABLE
+[2010-01-24 06:19:19 [WARNING]] undefined function: :TD
+[2010-01-24 06:19:19 [WARNING]] Warning while processing connection: undefined function: :TD
+[2010-01-24 06:19:19 [WARNING]] undefined function: :TR
+[2010-01-24 06:19:19 [WARNING]] Warning while processing connection: undefined function: :TR
+[2010-01-24 06:19:19 [WARNING]] undefined function: WITH-HTML-OUTPUT
+[2010-01-24 06:19:19 [WARNING]] Warning while processing connection: undefined function: WITH-HTML-OUTPUT
+[2010-01-24 06:19:19 [ERROR]] The function *STANDARD-OUTPUT* is undefined.
+[2010-01-24 06:20:35 [WARNING]] The function *STANDARD-OUTPUT* is undefined, and its name is reserved by ANSI
+CL so that even if it were defined later, the code doing so would not be
+portable.
+[2010-01-24 06:20:36 [WARNING]] Warning while processing connection: The function *STANDARD-OUTPUT* is undefined, and its name is reserved by ANSI
+CL so that even if it were defined later, the code doing so would not be
+portable.
+[2010-01-24 06:20:36 [WARNING]] undefined function: :HTML
+[2010-01-24 06:20:36 [WARNING]] Warning while processing connection: undefined function: :HTML
+[2010-01-24 06:20:36 [WARNING]] undefined function: :TABLE
+[2010-01-24 06:20:36 [WARNING]] Warning while processing connection: undefined function: :TABLE
+[2010-01-24 06:20:36 [WARNING]] undefined function: :TD
+[2010-01-24 06:20:36 [WARNING]] Warning while processing connection: undefined function: :TD
+[2010-01-24 06:20:36 [WARNING]] undefined function: :TR
+[2010-01-24 06:20:36 [WARNING]] Warning while processing connection: undefined function: :TR
+[2010-01-24 06:20:36 [WARNING]] undefined function: WITH-HTML-OUTPUT
+[2010-01-24 06:20:36 [WARNING]] Warning while processing connection: undefined function: WITH-HTML-OUTPUT
+[2010-01-24 06:20:36 [ERROR]] The function *STANDARD-OUTPUT* is undefined.
+[2010-01-24 06:20:42 [ERROR]] The function *STANDARD-OUTPUT* is undefined.
+[2010-01-24 06:20:53 [ERROR]] Error while processing connection: The value #<PACKAGE "HUNCHENTOOT"> is not of type SEQUENCE.
+[2010-01-24 06:21:00 [WARNING]] The function *STANDARD-OUTPUT* is undefined, and its name is reserved by ANSI
+CL so that even if it were defined later, the code doing so would not be
+portable.
+[2010-01-24 06:21:00 [WARNING]] Warning while processing connection: The function *STANDARD-OUTPUT* is undefined, and its name is reserved by ANSI
+CL so that even if it were defined later, the code doing so would not be
+portable.
+[2010-01-24 06:21:00 [WARNING]] undefined function: :HTML
+[2010-01-24 06:21:00 [WARNING]] Warning while processing connection: undefined function: :HTML
+[2010-01-24 06:21:00 [WARNING]] undefined function: :TABLE
+[2010-01-24 06:21:00 [WARNING]] Warning while processing connection: undefined function: :TABLE
+[2010-01-24 06:21:00 [WARNING]] undefined function: :TD
+[2010-01-24 06:21:00 [WARNING]] Warning while processing connection: undefined function: :TD
+[2010-01-24 06:21:00 [WARNING]] undefined function: :TR
+[2010-01-24 06:21:00 [WARNING]] Warning while processing connection: undefined function: :TR
+[2010-01-24 06:21:00 [WARNING]] undefined function: WITH-HTML-OUTPUT
+[2010-01-24 06:21:00 [WARNING]] Warning while processing connection: undefined function: WITH-HTML-OUTPUT
+[2010-01-24 06:21:00 [ERROR]] The function *STANDARD-OUTPUT* is undefined.
+[2010-01-24 06:22:49 [ERROR]] Error while processing connection: I/O timeout reading #<SB-SYS:FD-STREAM for "a socket" {5AFC70D9}>.
+[2010-01-24 06:25:34 [WARNING]] The function *STANDARD-OUTPUT* is undefined, and its name is reserved by ANSI
+CL so that even if it were defined later, the code doing so would not be
+portable.
+[2010-01-24 06:25:34 [WARNING]] Warning while processing connection: The function *STANDARD-OUTPUT* is undefined, and its name is reserved by ANSI
+CL so that even if it were defined later, the code doing so would not be
+portable.
+[2010-01-24 06:25:34 [WARNING]] undefined function: :HTML
+[2010-01-24 06:25:34 [WARNING]] Warning while processing connection: undefined function: :HTML
+[2010-01-24 06:25:34 [WARNING]] undefined function: :TABLE
+[2010-01-24 06:25:34 [WARNING]] Warning while processing connection: undefined function: :TABLE
+[2010-01-24 06:25:34 [WARNING]] undefined function: :TD
+[2010-01-24 06:25:34 [WARNING]] Warning while processing connection: undefined function: :TD
+[2010-01-24 06:25:34 [WARNING]] undefined function: :TR
+[2010-01-24 06:25:34 [WARNING]] Warning while processing connection: undefined function: :TR
+[2010-01-24 06:25:34 [WARNING]] undefined function: WITH-HTML-OUTPUT
+[2010-01-24 06:25:35 [WARNING]] Warning while processing connection: undefined function: WITH-HTML-OUTPUT
+[2010-01-24 06:25:35 [ERROR]] The function *STANDARD-OUTPUT* is undefined.
+[2010-01-24 06:28:18 [ERROR]] The function SCRIPT-NAME* is undefined.
+[2010-01-24 06:28:29 [ERROR]] The function SCRIPT-NAME* is undefined.
+[2010-01-24 06:34:57 [ERROR]] Error while processing connection: I/O timeout reading #<SB-SYS:FD-STREAM for "a socket" {5A3D8F31}>.
+[2010-01-24 06:44:06 [ERROR]] Error while processing connection: I/O timeout reading #<SB-SYS:FD-STREAM for "a socket" {5AFC70E1}>.
+[2010-01-24 06:45:03 [ERROR]] error in FORMAT: required argument missing
+  Hi, <b> MAMMAr </b>   <br> ~a  ~% 
+                              ^
+[2010-01-24 06:45:19 [ERROR]] error in FORMAT: required argument missing
+  Hi, <b> MAMMAr </b>   <br> ~a  ~% 
+                              ^
+[2010-01-24 06:46:31 [ERROR]] Error while processing connection: I/O timeout reading #<SB-SYS:FD-STREAM for "a socket" {5AFC80D9}>.
+[2010-01-24 06:53:45 [ERROR]] Error while processing connection: I/O timeout reading #<SB-SYS:FD-STREAM for "a socket" {5AFC60D9}>.
+[2010-01-24 06:55:55 [ERROR]] Error while processing connection: I/O timeout reading #<SB-SYS:FD-STREAM for "a socket" {5AFC50A1}>.
+[2010-01-24 06:58:37 [ERROR]] Error while processing connection: I/O timeout reading #<SB-SYS:FD-STREAM for "a socket" {5AFC60A1}>.
+[2010-01-24 07:00:05 [ERROR]] Error while processing connection: I/O timeout reading #<SB-SYS:FD-STREAM for "a socket" {5AFC70A1}>.
+[2010-01-24 07:01:08 [ERROR]] Error while processing connection: I/O timeout reading #<SB-SYS:FD-STREAM for "a socket" {5A3D0EF1}>.
+[2010-01-24 07:03:33 [ERROR]] Error while processing connection: I/O timeout reading #<SB-SYS:FD-STREAM for "a socket" {5AFC70A1}>.
