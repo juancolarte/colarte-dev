@@ -1,0 +1,5 @@
+;(load "asdf")
+(push #P"/usr/home/colarte/dev/lisp/clisp/asdf/site-systems/" asdf::*central-registry*)
+(asdf:operate 'asdf:compile-op :cffi)
+(asdf:operate 'asdf:load-op :cffi)
+;(saveinitmem "withcffi.mem")
