@@ -1,0 +1,157 @@
+2010-08-08
+
+Colarte public git repository
+
+code in python (GAE)
+	lisp 	(sbcl and clisp specific)
+
+
+
+.
+|-- README
+|-- gae
+|   |-- README
+|   |-- __init__.py
+|   |-- app.yaml
+|   |-- console.py
+|   |-- index.yaml
+|   |-- main.py
+|   |-- myapp
+|   |   |-- __init__.py
+|   |   |-- controllers
+|   |   |   |-- __init__.py
+|   |   |   |-- fileupload.py
+|   |   |   |-- pages.py
+|   |   |   `-- urls.py
+|   |   |-- models
+|   |   |   |-- __init__.py
+|   |   |   |-- blobs.py
+|   |   |   `-- urlstore.py
+|   |   |-- utils
+|   |   |   `-- __init__.py
+|   |   `-- views
+|   |       |-- container.html
+|   |       |-- form_category.html
+|   |       |-- form_upload.html
+|   |       |-- form_url.html
+|   |       |-- listcategories.html
+|   |       |-- listuploadedfiles.html
+|   |       |-- listurl.html
+|   |       |-- ppal.html
+|   |       `-- procesoform.html
+|   |-- nuevo.py
+|   |-- remote_control.py
+|   |-- static
+|   |   |-- appengine_button_noborder.gif
+|   |   |-- cosa.xml
+|   |   |-- shell.js
+|   |   `-- spinner.gif
+|   `-- urlganizer.py
+`-- lisp
+    |-- clisp
+    |   |-- asdf
+    |   |   |-- all_required.tar.bz2
+    |   |   |-- asdf.lisp
+    |   |   |-- suso_asdf.lisp
+    |   |   `-- usage.lisp
+    |   |-- ffi
+    |   |   |-- Makefile
+    |   |   |-- ncurses.lisp
+    |   |   |-- swig
+    |   |   |   |-- curses.h
+    |   |   |   |-- index.html
+    |   |   |   |-- makefile
+    |   |   |   |-- ncurses-cffi.i
+    |   |   |   |-- ncurses-cffi.lisp
+    |   |   |   |-- panel.h
+    |   |   |   |-- panel.i
+    |   |   |   |-- panel_cffi.lisp
+    |   |   |   `-- test.lisp
+    |   |   `-- timeout_sample.c
+    |   |-- fortuned_httpd
+    |   |   |-- data
+    |   |   |   |-- fortune
+    |   |   |   |-- freebsd-tips
+    |   |   |   |-- murphy
+    |   |   |   `-- startrek
+    |   |   |-- html.lisp
+    |   |   |-- httpd.lisp
+    |   |   `-- makefile
+    |   |-- httpd
+    |   |   |-- multithreaded
+    |   |   |   |-- Makefile
+    |   |   |   |-- html.lisp
+    |   |   |   |-- httpd.lisp
+    |   |   |   |-- mthreaded.log
+    |   |   |   `-- new.lisp
+    |   |   |-- old_jp_webapp.lisp
+    |   |   `-- single_process
+    |   |       |-- Makefile
+    |   |       |-- doinbench
+    |   |       |-- html.lisp
+    |   |       |-- httpd.lisp
+    |   |       |-- newbench.log
+    |   |       |-- old_jp_webapp.lisp
+    |   |       `-- single_proc
+    |   |-- ncurses
+    |   |   |-- horscroll
+    |   |   |   |-- horscroll.asd
+    |   |   |   `-- horscroll.lisp
+    |   |   `-- ncurses
+    |   |       |-- ncurses.asd
+    |   |       `-- ncurses.lisp
+    |   |-- socket
+    |   |   |-- japan
+    |   |   |   `-- webapp.lisp
+    |   |   |-- read_socket.lisp
+    |   |   `-- threaded
+    |   |       |-- html.lisp
+    |   |       |-- httpd.lisp
+    |   |       |-- loopin.lisp
+    |   |       |-- new.lisp
+    |   |       `-- notas
+    |   |-- sqlite
+    |   |   |-- clisp-sqlite.asd
+    |   |   |-- data.db
+    |   |   |-- sample.lisp
+    |   |   |-- sqlite.asd
+    |   |   |-- sqlite.lisp
+    |   |   `-- testdb.lisp
+    |   `-- threads
+    |       |-- 99.lisp
+    |       |-- NOTE
+    |       |-- actual.lisp
+    |       |-- loopin.lisp
+    |       |-- repl.lisp
+    |       `-- repl_threaded.lisp
+    `-- sbcl
+        |-- asdf-install
+        |   `-- recklessly.lisp
+        |-- hunchentoot
+        |   `-- lispengine
+        |       |-- access.log
+        |       |-- document-root
+        |       |   `-- static
+        |       |       |-- css
+        |       |       |   `-- webapp.css
+        |       |       |-- index.html
+        |       |       `-- js
+        |       |           `-- html5.js
+        |       |-- engine.lisp
+        |       |-- loader.lisp
+        |       |-- message.log
+        |       |-- mvc
+        |       |   |-- controllers
+        |       |   |   |-- cosa.lisp
+        |       |   |   |-- form.lisp
+        |       |   |   `-- hello.lisp
+        |       |   |-- models
+        |       |   `-- views
+        |       `-- tumama.lisp
+        |-- sockets
+        |   `-- serve.lisp
+        `-- thread_samples
+            |-- 100threads.lisp
+            `-- engine.lisp
+
+39 directories, 106 files
