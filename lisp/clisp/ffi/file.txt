@@ -1,0 +1,676 @@
+LinuxQuestions.org                               Have you listened to LQ Radio?
+
+Blogs
+
+Recent Entries
+
+Best Entries
+
+Best Blogs
+
+Blog List
+
+Search Blogs
+
+                                     [avw]
+Home Forums HCL Reviews Tutorials Articles Register Search Today's  Mark Forums                          Main Menu
+                                                            Posts      Read                                * Linux Forums
+                                                                                                           * Search
+Go     LinuxQuestions.org > Forums >      User     [User Name ] [*]Remember Me?                            * LQ Tags
+Back   Non-*NIX Forums > Programming      Name                                                             * Linux HCL
+Reload this Page C++: Is there a way to   Password [          ] [Log in]                                   * Linux Tutorials
+determine the file type of a given file?                                                                   * LQ Job
+                                                                                                             Marketplace
+Programming This forum is for all programming questions.                                                   * Linux Wiki
+The question does not have to be directly related to Linux and any language is                             * Distro Reviews
+fair game.                                                                                                 * Book Reviews
+                                                                                                           * Download Linux
+                                                                                                           * Linux Bookmarks
+Notices                                                                                                    * Press Releases
+                                                                                                           * Linux Podcast
+Welcome to LinuxQuestions.org, a friendly and active Linux Community.                                      * Social Groups
+                                                                                                           * LQ Blogs
+You are currently viewing LQ as a guest. By joining our community you will have                            * LQ Radio
+the ability to post topics, receive our newsletter, use the advanced search,                               * LQ Radio Jukebox
+subscribe to threads and access many other special features. Registration is                               * Home
+quick, simple and absolutely free. Join our community today!
+                                                                                                               (Con't)
+Note that registered members see fewer ads, and ContentLink is completely
+disabled once you log in.                                                                                [avw]
+                                                                                                          
+Are you new to LinuxQuestions.org? Visit the following links:
+Site Howto | Site FAQ | Sitemap | Register Now                                                           My LQ
+                                                                                                           * Login
+If you have any problems with the registration process or your account login,                              * Register
+please contact us. If you need to reset your password, click here.
+                                                                                                         Write for LQ
+Having a problem logging in? Please visit this page to clear all LQ-related                              LinuxQuestions.org
+cookies.                                                                                                 is looking for
+                                                                                                         people interested in
+                                                                                                         writing Editorials,
+            The Incredible Guide to NEW Ubuntu (Karmic Koala)                                            Articles, Reviews,
+                                                                                                         and more. If you'd
+            There are a lot of people still stuck with Windows because it's the                          like to contribute
+            "easier alternative". Linux is both cheaper and more versatile than                          content, let us know
+            Microsoft's operating system, but the learning curve has frightened                          .
+            off many people.
+[w_make10c]                                                                                              Free Publications
+            The Ubuntu Karmic Koala Bible is a guide that's both great for
+            Linux initiates, and invariably useful for Linux intermediates.                              Main Menu
+            With over fifty pages of copy-paste tutorials, this guide belongs                              * LQ Calendar
+            in the virtual library of every Linux user!                                                    * LQ Rules
+                                                                                                           * LQ Sitemap
+            Click Here to receive The Incredible Guide to NEW Ubuntu absolutely                            * Site FAQ
+            free.                                                                                          * Linux Links
+                                                                                                           * View New Posts
+                                                                                                           * View Latest
+                                                             Page 1 of 2  1 2 >                              Posts
+Reply                                                                                                      * Zero Reply
+                                                                                                             Threads
+                                                             Search this Thread                            * LQ Wiki Most
+                                                                                                             Wanted
+Old 03-06-2008, 07:51 PM                                                     #1                            * Jeremy's Blog
+                                                                                                           * Report LQ Bug
+BrianK                C++: Is there a way to determine the file type of a given
+Senior Member         file?                                                                              Syndicate
+                      ---------------------------------------------------------                          RSS1  Latest Threads
+Registered: Mar 2002                                                                                     RSS1  LQ News
+Location: Los         [Log in to get rid of this advertisement]                                          RSS2  LQ Podcast
+Angeles, CA           I'm trying to find out what type of file I'm dealing                               RSS2  LQ Radio
+Distribution: Debian  with. I can't look at the extension because this                                   Twitter:
+et al                 particular file extension can be ascii, binary, gzipped                            @linuxquestions
+Posts: 1,313          ascii, or gzipped binary.                                                          identi.ca:
+Thanked: 8                                                                                               @linuxquestions
+                      Is there a way to determine the file type without doing                            Facebook:
+                      something like                                                                     @linuxquestions
+
+                      system("file some_file");
+
+                      ?
+
+                      Thanks
+
+                       
+                                                                               
+BrianK
+
+View Public Profile
+
+View LQ Blog
+
+View Bookmarks
+
+View Review Entries
+
+View HCL Entries
+
+Visit BrianK's homepage!
+
+Find More Posts by BrianK
+                                                                               
+Old 03-06-2008, 08:36 PM                                                     #2
+
+Dan04                 Open the file and look inside. If is starts with "\x1f\
+Member                x8b\x08\x08", it's a gzip file. Otherwise, count byte
+                      frequencies. Text files will consist primarily of spaces
+Registered: Jun 2006  and letters, and are unlikely to contain any
+Location: Texas       non-whitespace control characters.
+Distribution: Ubuntu
+Posts: 207            Edit: This assumes you merely want to know whether a file
+Thanked: 11           is text or binary. If you want to know that kind of text
+                      or binary file it is, follow the other suggestions.
+                      ---------------------------------------------------------
+                      Last edited by Dan04; 03-08-2008 at 12:09 AM..
+
+                                                                               
+                                                                               
+Dan04
+
+View Public Profile
+
+View LQ Blog
+
+View Bookmarks
+
+View Review Entries
+
+View HCL Entries
+
+Find More Posts by Dan04
+                                                                               
+Old 03-06-2008, 08:45 PM                                                     #3
+
+BrianK                Quote:
+Senior Member
+                      Originally Posted by Dan04 View Post
+Registered: Mar 2002  Open the file and look inside. If is starts with "\x1f\
+Location: Los         x8b\x08\x08", it's a gzip file. Otherwise, count byte
+Angeles, CA           frequencies. Text files will consist primarily of spaces
+Distribution: Debian  and letters, and are unlikely to contain any
+et al                 non-whitespace control characters.
+Posts: 1,313
+Thanked: 8            Good tip, thanks. [smile]
+
+Original Poster
+
+                                                                               
+                                                                               
+BrianK
+
+View Public Profile
+
+View LQ Blog
+
+View Bookmarks
+
+View Review Entries
+
+View HCL Entries
+
+Visit BrianK's homepage!
+
+Find More Posts by BrianK
+                                                                               
+Old 03-06-2008, 09:37 PM                                                     #4
+
+ta0kira               A better way might be to use [man] libmagic, which is
+Senior Member         what the desktop systems and file both use.
+                      ta0kira
+Registered: Sep 2004
+Distribution: FreeBSD PS I hear it even makes "magic cookies."
+amd64 8.0-RELEASE,    ---------------------------------------------------------
+Slackware64 13.0,     Last edited by ta0kira; 03-06-2008 at 09:41 PM..
+Slackware 12.1,
+Ubuntu Server 8.04,
+Kubuntu 9.04
+Posts: 2,256
+Thanked: 49
+
+                                                                               
+                                                                               
+ta0kira
+
+View Public Profile
+
+View LQ Blog
+
+View Bookmarks
+
+View Review Entries
+
+View HCL Entries
+
+Find More Posts by ta0kira
+                                                                               
+Old 03-07-2008, 10:46 AM                                                     #5
+
+nullmind              You could use a mime type library or command.
+LQ Newbie
+ 
+Registered: Mar 2008
+Posts: 9
+Thanked: 0
+
+                                                                               
+                                                                               
+nullmind
+
+View Public Profile
+
+View LQ Blog
+
+View Bookmarks
+
+View Review Entries
+
+View HCL Entries
+
+Find More Posts by nullmind
+                                                                               
+Old 03-07-2008, 05:14 PM                                                                          #6
+
+BrianK                Quote:
+Senior Member
+                      Originally Posted by ta0kira View Post
+Registered: Mar 2002  A better way might be to use [man] libmagic, which is what the desktop systems
+Location: Los         and file both use.
+Angeles, CA           ta0kira
+Distribution: Debian
+et al                 PS I hear it even makes "magic cookies."
+Posts: 1,313
+Thanked: 8            Not to sound too neophyte-ish, but ever used this before? I'm having a heck of
+                      a time finding docs and/or examples. Best I've put together is this:
+Original Poster
+                      Code:
+
+                      #include <stdio.h>
+                      #include <magic.h>
+
+                      int main() {
+                        magic_t myt = magic_open(MAGIC_CONTINUE|MAGIC_ERROR|MAGIC_DEBUG|MAGIC_MIME);
+                        printf("magic output: '%s'\n",magic_file(myt,"/some/file"));
+
+                        return 0;
+                      }
+
+                      but it always returns:
+
+                      magic output: '(null)'
+
+                      confused.
+
+                                                                                                    
+                                                                               
+BrianK
+
+View Public Profile
+
+View LQ Blog
+
+View Bookmarks
+
+View Review Entries
+
+View HCL Entries
+
+Visit BrianK's homepage!
+
+Find More Posts by BrianK
+                                                                               
+Old 03-07-2008, 06:38 PM                                                               #7
+
+BrianK                Quote:
+Senior Member
+                      Originally Posted by BrianK View Post
+Registered: Mar 2002  Not to sound too neophyte-ish, but ever used this before? I'm
+Location: Los         having a heck of a time finding docs and/or examples.
+Angeles, CA
+Distribution: Debian  ...blah blah blah...
+et al
+Posts: 1,313          I found the source for "file" & saw that I was missing a line &
+Thanked: 8            using "magic_open" wrong. Here's a working example:
+
+Original Poster
+
+                      Code:
+
+                      #include <stdio.h>
+                      #include <magic.h>
+
+                      int main() {
+                        struct magic_set *magic = magic_open(MAGIC_MIME|MAGIC_CHECK);
+                        magic_load(magic,NULL); // loads the default mime type definition
+                        printf("magic output: '%s'\n",magic_file(magic,"/some/file"));
+
+                        return 0;
+                      }
+
+                                                                                         
+                                                                               
+BrianK
+
+View Public Profile
+
+View LQ Blog
+
+View Bookmarks
+
+View Review Entries
+
+View HCL Entries
+
+Visit BrianK's homepage!
+
+Find More Posts by BrianK
+                                                                               
+Old 03-07-2008, 07:43 PM                                                                              #8
+
+ta0kira               No I haven't, but a careful look at the manpage and some deductive hacking of
+Senior Member         the file source code led me to this:
+                      Code:
+Registered: Sep 2004
+Distribution: FreeBSD #include <stdio.h>
+amd64 8.0-RELEASE,    #include <magic.h>
+Slackware64 13.0,
+Slackware 12.1,       int main() {
+Ubuntu Server 8.04,     magic_t myt = magic_open(MAGIC_CONTINUE|MAGIC_ERROR/*|MAGIC_DEBUG*/|MAGIC_MIME);
+Kubuntu 9.04            magic_load(myt,NULL);
+Posts: 2,256            printf("magic output: '%s'\n",magic_file(myt,__FILE__));
+Thanked: 49             magic_close(myt);
+
+                        return 0;
+                      }
+
+                      Getting rid of the debug flag will save you a lot of garbage output.
+                      ta0kira
+
+                      Edit: I don't know how I missed your post above this one. I think I loaded this
+                      thread several hours ago and just now got to it. Sorry!
+                      -------------------------------------------------------------------------------
+                      Last edited by ta0kira; 03-07-2008 at 07:48 PM..
+
+                                                                                                        
+                                                                               
+ta0kira
+
+View Public Profile
+
+View LQ Blog
+
+View Bookmarks
+
+View Review Entries
+
+View HCL Entries
+
+Find More Posts by ta0kira
+                                                                               
+Old 06-04-2009, 06:13 AM                                                                              #9
+
+gubacsek              Hello Everyone!
+LQ Newbie
+                      I'm trying to determine the filetype (bin or text) of a file and finally found
+Registered: Jun 2009  this thread with your code:
+Posts: 6
+Thanked: 0            Quote:
+
+                      Originally Posted by ta0kira View Post
+                      No I haven't, but a careful look at the manpage and some deductive hacking of
+                      the file source code led me to this:
+                      Code:
+
+                      #include <stdio.h>
+                      #include <magic.h>
+
+                      int main() {
+                        magic_t myt = magic_open(MAGIC_CONTINUE|MAGIC_ERROR/*|MAGIC_DEBUG*/|MAGIC_MIME);
+                        magic_load(myt,NULL);
+                        printf("magic output: '%s'\n",magic_file(myt,__FILE__));
+                        magic_close(myt);
+
+                        return 0;
+                      }
+
+                      BUT! when i'm trying to compile it, i'm getting these errors:
+                      Code:
+
+                      helloworld.c:(.text+0xe04): undefined reference to `magic_open'
+                      helloworld.c:(.text+0xe1a): undefined reference to `magic_load'
+                      helloworld.c:(.text+0xe4f): undefined reference to `magic_file'
+                      helloworld.c:(.text+0xeab): undefined reference to `magic_close'
+                      collect2: ld returned 1 exit status
+
+                      Since i didn't found any valuable information about magic.h, and how to use it,
+                      i'm asking You to help me, please!
+
+                      What can be missing? If i don't include magic.h, MAGIC_CONTINUE|MAGIC_ERROR and
+                      so on aren't declared also. So something happens when i unclude it, but the
+                      functions open, load, file, and close are not there.
+
+                      I'm on a gentoo linux 2.6.29-r5.
+
+                      Thanks in advance!
+
+                                                                                                        
+                                                                               
+gubacsek
+
+View Public Profile
+
+View LQ Blog
+
+View Bookmarks
+
+View Review Entries
+
+View HCL Entries
+
+Find More Posts by gubacsek
+                                                                               
+Old 06-04-2009, 10:45 AM                                                    #10
+
+jiml8                 You have to link against libmagic.
+Senior Member
+ 
+Registered: Sep 2003
+Distribution:
+mandriva 2010.1,
+2008.1, kubuntu 8,
+fedora 8
+Posts: 3,001
+Thanked: 61
+
+                                                                               
+                                                                               
+jiml8
+
+View Public Profile
+
+View LQ Blog
+
+View Bookmarks
+
+View Review Entries
+
+View HCL Entries
+
+Visit jiml8's homepage!
+
+Find More Posts by jiml8
+                                                                               
+Old 06-05-2009, 02:06 AM                                                    #11
+
+gubacsek              Question
+LQ Newbie             ---------------------------------------------------------
+                      Quote:
+Registered: Jun 2009
+Posts: 6              Originally Posted by jiml8 View Post
+Thanked: 0            You have to link against libmagic.
+
+                      [confused]
+                      I'm sorry jiml8, i'm a (not 100%, but) noob with C++, i
+                      just started learning it on my own.
+                      So i have to link against libmagic? How can i do it?
+                      I tryed to include libmagic, but there is no such file.
+                      (only libmgagic.so, la)
+
+                      I would appreciate you help!
+
+                                                                               
+                                                                               
+gubacsek
+
+View Public Profile
+
+View LQ Blog
+
+View Bookmarks
+
+View Review Entries
+
+View HCL Entries
+
+Find More Posts by gubacsek
+                                                                               
+Old 06-05-2009, 04:14 AM                                                    #12
+
+gubacsek              Nevermind! I FOUND IT \o/ !!!
+LQ Newbie
+                      Code:
+Registered: Jun 2009
+Posts: 6              g++ /usr/lib/libmagic.so helloworld.c -o helloworld
+Thanked: 0
+                      Thank you guys for pointing me to the right direction! I
+                      learned a lot today [wink]
+
+                                                                               
+                                                                               
+gubacsek
+
+View Public Profile
+
+View LQ Blog
+
+View Bookmarks
+
+View Review Entries
+
+View HCL Entries
+
+Find More Posts by gubacsek
+                                                                               
+Old 06-05-2009, 05:51 AM                                                    #13
+
+gitanshu              You can use file command on that file.and grep for
+LQ Newbie             different results.
+ 
+Registered: May 2009
+Posts: 14
+Thanked: 1
+
+                                                                               
+                                                                               
+gitanshu
+
+View Public Profile
+
+View LQ Blog
+
+View Bookmarks
+
+View Review Entries
+
+View HCL Entries
+
+Find More Posts by gitanshu
+                                                                               
+Old 06-05-2009, 07:42 AM                                                    #14
+
+gubacsek              You are right gitanshu, this was my first approach. But
+LQ Newbie             using libmagic, i learned some new stuff, which is my
+                      goal now [wink]
+Registered: Jun 2009  Anyway, thank you for your reply!
+Posts: 6
+Thanked: 0
+
+                                                                               
+                                                                               
+gubacsek
+
+View Public Profile
+
+View LQ Blog
+
+View Bookmarks
+
+View Review Entries
+
+View HCL Entries
+
+Find More Posts by gubacsek
+                                                                               
+Old 06-05-2009, 08:15 AM                                                    #15
+
+jiml8                 Quote:
+Senior Member
+                      g++ /usr/lib/libmagic.so helloworld.c -o helloworld
+Registered: Sep 2003
+Distribution:         I am a bit surprised that worked. Proper syntax is this:
+mandriva 2010.1,
+2008.1, kubuntu 8,    g++ -lmagic helloworld.c -o helloworld
+fedora 8
+Posts: 3,001          The system expects a shard library to start with lib and
+Thanked: 61           end with .so therefore you do not have to put the full
+                      library name in. Further, by doing it this way, the
+                      system will link with the latest version of the library
+                      that is on the system automatically.
+                      ---------------------------------------------------------
+                      Last edited by jiml8; 06-05-2009 at 08:17 AM..
+
+                                                                               
+                                                                               
+jiml8
+
+View Public Profile
+
+View LQ Blog
+
+View Bookmarks
+
+View Review Entries
+
+View HCL Entries
+
+Visit jiml8's homepage!
+
+Find More Posts by jiml8
+
+          [avw]  var changoAlternateAdURL = 'http://s3.amazonaws.com/
+     chango-fallback-production/06587bec-9a9a-11df-9fe2-12313804a4c8.html?
+       AWSAccessKeyId=08E68GCNR5TNZESFNBR2&Expires=2147385600&Signature=
+                      0rutwFZWJHW5O5Jtqtq%2BZIkC5PU%3D';
+
+
+Reply                                                        Page 1 of 2  1 2 >
+
+
+
+
+Thread Tools                                      Search this Thread
+
+Show Printable Version Show Printable Version     Search this Thread:
+Email this Page Email this Page                   [                    ][Go]
+                                                  Advanced Search
+
+
+[collapse_t] Posting Rules
+
+You may not post new threads
+You may not post replies
+You may not post attachments
+You may not edit your posts
+----------------------------
+BB code is On
+Smilies are On
+[IMG] code is Off
+HTML code is Off
+Trackbacks are Off
+Pingbacks are On
+Refbacks are Off
+----------------------------
+Forum Rules
+
+
+
+[collapse_t] Similar Threads
+
+          Thread               Thread          Forum       Replies   Last Post
+                               Starter
+
+how file browser detects    Leon_Amirreza Fedora              2        03-18-2007
+file type without .3 sufix?                                              10:20 PM
+
+howto convert .flw (koffice                                            01-30-2007
+/kivio file) into windows   rahmmandel    Linux - Desktop     7          04:12 PM
+readable type of file?
+
+determine encoding type of  chovy         Linux - Software    1        04-03-2006
+a file (ie - UTF-8)                                                      12:46 AM
+
+How do I determine file     lowpro2k3     Linux - General     5        07-09-2005
+system type?                                                             03:40 PM
+
+How does KDE determine file vdemuth       Linux - Software    4        01-08-2005
+type?                                                                    04:08 AM
+
+
+
+                All times are GMT -5. The time now is 12:05 AM.
+
+
+          Contact Us - Advertising Info - Rules - LQ Merchandise - Donations - 
+           Contributing Member - LQ Sitemap - LinuxQuestions.org - Linux Forums
+
+                 Open Source Consulting | Domain Registration
+
+
