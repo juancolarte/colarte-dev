@@ -1,0 +1,17 @@
+; rss feed scroller.
+;
+;Desktop Rss Feed Scroller
+;
+;needs : curl, xmlstarlet, clisp, xrootconsole
+;
+;Adjust paths to your own environment.
+;create a spool file : /home/colarte/bin/spool
+;cp  newticker.lisp in your PATH. (/home/colarte/bin/newticker.lisp)
+;cp rss2list.sh in in your PATH. (/home/colarte/bin/rss2list.sh)
+;xrootconsole /home/colarte/bin/spool to see logs in X root console 
+;customize your feeds editing /home/colarte/bin/newticker.lisp in the bottom .. 
+;main way is thru  macro initialize
+;start feed scroll  /home/colarte/bin/newticker.lisp
+
+console based canto,olive , rsstail might work for some .. i like to 
+roll my own in lisp. :=)
