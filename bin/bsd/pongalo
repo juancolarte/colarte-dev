@@ -1,0 +1,1 @@
+sudo pkg_add -r $1

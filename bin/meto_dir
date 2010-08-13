@@ -1,0 +1,2 @@
+#!/bin/bash
+ssh trabajo "echo $1 >> urls; tail urls"

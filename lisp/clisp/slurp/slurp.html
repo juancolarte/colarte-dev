@@ -1,0 +1,144 @@
+<html><head></head><body>
+<h1>Slurping a file in Common Lisp</h1>
+
+<p>Slurping a file should be easy. I could think of plenty of ways to
+do it, but it took a while to come up with something comparable with
+perl slurping.</p>
+
+<p>Here's a rough evolution of my slurp-stream function. You can do
+anything you like with the code. It's there so you don't have to go
+through the discovery process I went through.</p>
+
+<p>As a test file I used my 5M kernel file.</p>
+
+<h3>Character by character</h3>
+<p>My gut told me this was just plain stupid.</p>
+
+<pre>(defun slurp-stream1 (stream)
+  (with-output-to-string (out)
+    (do ((x (read-char stream nil stream) (read-char stream nil stream)))
+        ((eq x stream))
+      (write-char x out))))
+</pre>
+
+<h4>Results</h4>
+<pre>;   63.24 seconds of real time
+;   446,879,200 bytes consed.
+</pre>
+
+<h4>Notes</h4>
+<p>This isn't worth the time I spent writing it.</p>
+
+<h3>Line By Line</h3>
+<p>Clearly reading the file in by blocks is the answer. That's how
+hardrives works. Line by line seemed like a good place to start.
+
+</p><pre>(defun slurp-stream2 (stream)
+  (with-output-to-string (out)
+    (loop
+     (multiple-value-bind (line nl) (read-line stream nil stream)
+       (when (eq line stream)
+         (return))
+       (write-string line out)
+       (unless nl
+         (write-char #\Newline out))))))
+</pre>
+
+<h4>results</h4>
+<pre>;   1.03 seconds of real time
+;   37,492,232 bytes consed.
+</pre>
+<p>It turned out to be surprisingly fast. 60 times faster than char by char!</p>
+
+<h4>Notes</h4>
+<p>This is problematic in several ways. read-line strips the newline so I
+have to manually put one back. Plus binary files don't have
+newlines. So lines are a lousy way to break up the input.</p>
+
+<h3>In 1024 byte chunks</h3>
+<p>Now we're getting closer. Read in 1024 characters at a time,
+accumulating them. I remember slurping files in C like this.</p>
+
+<pre>(defun slurp-stream3 (stream)
+  (with-output-to-string (out)
+    (let ((seq (make-array 1024 :element-type 'character
+			   :adjustable t
+			   :fill-pointer 1024)))
+      (loop
+       (setf (fill-pointer seq) (read-sequence seq stream))
+       (when (zerop (fill-pointer seq))
+	 (return))
+       (write-sequence seq out)))))
+</pre>
+
+<h4>Results</h4>
+<pre>;   1.54 seconds of real time
+;   23,085,744 bytes consed.
+</pre>
+
+<h4>Notes</h4>
+<p>This solves the problems of the line by line function. Surprisingly
+its slower. Presumably it'd be faster reading text files since the
+chunks would be larger. On the upside it conses a lot less.
+
+</p><h3>Is this <strong>actually</strong> very good?</h3>
+<p>I was pretty pleased with myself. 1s to load 5M. That's pretty
+good, right? Apparently not. I wrote a perl program to slurp a file
+and was shocked.
+
+</p><pre>#!/usr/bin/perl
+
+use strict;
+local $/;
+my $s = &lt;&gt;;
+print length($s);
+print "\n";
+</pre>
+
+<h4>Results</h4>
+<pre>real	0m0.049s
+</pre>
+
+<h4>Notes</h4>
+<p>Ouch. Back to the drawing board.</p>
+
+<h3>All at once</h3>
+<p>After trying 4k and 16k blocks and not getting any better results,
+I thought: why not read it in with one call to read-sequence? Then the
+magic of read-sequence can take care of reading the file in blocks and
+I can just sit back and munch on junk food. A fair trade.</p>
+
+<pre>(defun slurp-stream4 (stream)
+  (let ((seq (make-string (file-length stream))))
+    (read-sequence seq stream)
+    seq))
+</pre>
+
+<h4>Results</h4>
+<pre>;   0.03 seconds of real time
+;   5,849,496 bytes consed.
+</pre>
+
+<h4>Notes</h4>
+<p>Smaller, faster, simpler. Why didn't I think of this in the first
+place? And it's satisfyingly faster than the perl program, although
+that's probably because perl has to parse the program as well.</p>
+
+<p>To determine if my CL function was faster than my Perl function, I
+decided to try a 189670832 byte file.</p>
+
+<pre>Perl:
+real	0m11.533s
+
+CL:
+;   10.41 seconds of real time
+;   189,672,328 bytes consed.
+</pre>
+
+<p>I ran the test several times. The results fluxuated probably
+because the kernel cached the file. I recorded the shortest
+times I got.</p>
+
+<h1>Conclusion</h1>
+<p>Common Lisp is still the rad.</p>
+</body></html>

@@ -1,0 +1,2 @@
+#!/bin/sh
+terminalo $( pidof ncurses.bin)

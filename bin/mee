@@ -1,0 +1,10 @@
+#!/bin/bash
+ratmenu setsawfis sawfish-ui Firefox firefox xterm \
+"xterm -geometry 78x24+2+2 -fn 10x20 -bg black -fg white"\
+oneliner "xterm -geometry 78x2+0-14 -fn 10x20 -bg black -fg white"\
+filebrowser "xterm -geometry 78x2+0-14 -fn 10x20 -bg black -fg white -e viewglob"\
+Offc "rdesktop -u camiloolarte -d geonet -p t3l3m4t1c4 -z -x b -f 200.124.168.39 "\
+Opera opera Grun grun MC_MYWAY \
+"xterm -geometry 78x24+2+2  -fn 10x20 -bg black -fg white -e mc -C base-colors=:normal=brightgreen,black:executable=brightcyan,black:directory=grey,black:menu=yellow,black:marked=black,brightgreen:menuhot=red,black:menusel=brightgreen,red:menuhotsel=yellow,blue:selected=yellow,brightblue "\
+Dillo dillo  xkill xkill WallPaper /home/colarte/bin/wallchange.sh\
+MusicMp3 xmms xpdf xpdf 

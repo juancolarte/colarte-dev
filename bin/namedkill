@@ -1,0 +1,15 @@
+#!/bin/bash
+#Script creado por lucas.skywalker@gmail.com
+#Si lo mejoras, no dudes en ponerte en contacto conmigo 
+
+s=`tput setf 8`
+n=`tput op`
+
+PID=`/sbin/pidof $1`
+
+ if [ "$PID" = "" ] ; then
+   echo "ERROR: Proceso ${s}"$1"${n} no encontrado."
+    else
+	   echo "El proceso ${s}"$1"${n}, con PID ${s}"$PID"${n} ha sido matado satisfactoriamente."
+	      kill $PID
+		   fi 

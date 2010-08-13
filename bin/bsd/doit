@@ -1,0 +1,1 @@
+/usr/lib/picolisp/dbg  /usr/lib/picolisp/lib/http.l /usr/lib/picolisp/lib/xhtml.l  -'server 8080 "project.l"'

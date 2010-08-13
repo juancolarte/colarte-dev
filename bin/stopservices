@@ -1,0 +1,14 @@
+RUTA=/etc/init.d
+
+
+$RUTA/apache stop
+$RUTA/mysql stop
+$RUTA/spamassassin stop
+$RUTA/postfix stop
+$RUTA/clamav-daemon stop
+$RUTA/clamav-freshclam stop
+$RUTA/vmware stop
+$RUTA/exim4 stop
+$RUTA/ stop
+$RUTA/ stop
+$RUTA/ stop

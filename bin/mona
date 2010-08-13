@@ -1,0 +1,50 @@
+
+Global {
+    edge = top
+    allign = center
+    margin = 20
+    widthtype = pixel
+    width = 170
+    heighttype = pixel
+    height = 35
+	Transparent = true
+    TintColor = 0xFFFFFFFF
+    Alpha = 160
+}
+
+Plugin {
+    type = launchbar
+    config {
+        button {
+            image = ~/.fbpanel/images/GNOME-Terminal.png
+            tooltip = Terminal
+            action = xterm -geometry 78x24+2+2 -fn 10x20 -bg black -fg white
+        }
+        button {
+            image = ~/.fbpanel/images/Emacs.png
+            tooltip = Run It man
+            action = grun
+        }
+
+        button {
+            image = ~/.fbpanel/images/opera.xpm
+            tooltip = Opera Browser
+            action = opera
+        }
+
+        button {
+            image = ~/.fbpanel/images/mozicon16.xpm
+            tooltip = Firefox
+            action = firefox
+        }
+        button {
+            image = ~/.fbpanel/images/settings.png
+            tooltip = wall
+            action = /usr/local/bin/ranwall 
+        }
+
+	}
+}
+
+
+

@@ -1,0 +1,20 @@
+#!/bin/bash
+ratmenu -label ' ...               .            menu aca'  -fg green -bg black  -persist  \
+ xtermNegro  "xterm -geometry 76x26+20+10 -fn lucidasanstypewriter-14 -bg black -fg green"\
+ xtermBlanco  "xterm -geometry 76x26+20+10 -fn lucidasanstypewriter-14 -bg white -fg blue"\
+ oneliner "xterm -geometry 76x2+2-14 -fn lucidasanstypewriter-14 -bg black -fg white"\
+ Grun grun MC_MYWAY  "xterm -geometry 76x26+10+10  -fn lucidasanstypewriter-14 -bg black -fg white -e mc -C base-colors=:normal=brightgreen,black:executable=brightcyan,black:directory=grey,black:menu=yellow,black:marked=black,brightgreen:menuhot=red,black:menusel=brightgreen,red:menuhotsel=yellow,blue:selected=yellow,brightblue "\
+ setsawfis sawfish-ui Firefox firefox    xkill xkill\
+ filebrowser "xterm -geometry 78x2+0-14 -fn 10x20 -bg black -fg white -e viewglob"\
+ xpdf xpdf   MNUEDIT  "xterm -font 9x15 -e mcedit ~/bin/menu " \
+ kmldonkey  "kmldonkey "   dillo  "dillo " apwal "apwal" \
+ knode  "knode "   konversation  "konversation " \
+ SAWFISHCONF "xterm -font 9x15 -e mcedit /home/colarte/.sawfishrc "  \
+ sylpheed sylpheed openoffice openoffice gabber gabber\
+ SAWFISHCONF "xterm -font 9x15 -e mcedit /home/colarte/.sawfishrc "  \
+ k3b "k3b "
+ 
+ 
+
+
+

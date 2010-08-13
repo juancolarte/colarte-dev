@@ -1,0 +1,3 @@
+#!/bin/bash
+shpid=$(/usr/lib/xscreensaver/strange -root &)
+renice +19 shpid

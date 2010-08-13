@@ -1,0 +1,1 @@
+source-highlight -fesc -o STDOUT -i $1 -n 

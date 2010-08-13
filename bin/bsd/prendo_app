@@ -1,0 +1,1 @@
+./dbg lib/http.l lib/xhtml.l  -'server 8080 "project.l"'

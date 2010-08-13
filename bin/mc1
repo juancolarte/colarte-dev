@@ -1,0 +1,1 @@
+mc -C base-colors=:normal=brightgreen,black:executable=brightcyan,black:directory=grey,black:menu=yellow,black:marked=black,brightgreen:menuhot=red,black:menusel=brightgreen,red:menuhotsel=yellow,blue:selected=yellow,brightblue
