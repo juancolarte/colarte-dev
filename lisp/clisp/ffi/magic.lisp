@@ -72,32 +72,39 @@
 
 (ffi:def-c-type magic_t ffi:c-pointer)
 
-(defmacro cfunc (lisp-name c-name &key arguments return-type)
-  `(ffi:def-call-out ,lisp-name
-      (:name ,c-name)
-      (:library "/usr/lib/libmagic.so")
-      (:arguments ,@arguments)
-      ,@(if return-type (list `(:return-type ,return-type)))))
+(defmacro cfunc (lisp-name &key arguments return-type)
+    (let ((c-name (string-downcase (symbol-name lisp-name))))
+         `(ffi:def-call-out ,lisp-name
+         (:name ,c-name)
+         (:library "/usr/lib/libmagic.so")
+         (:arguments ,@arguments)
+         ,@(if return-type (list `(:return-type ,return-type))))))
 
-(cfunc magic_open "magic_open" :arguments ((arg0 ffi:int)) :return-type magic_t)
-(cfunc magic_close "magic_close" :arguments ((arg0 magic_t)))
-(cfunc magic_file "magic_file" :arguments ((arg0 magic_t) (arg1 ffi:c-string))
+(cfunc magic_open  :arguments ((arg0 ffi:int)) :return-type magic_t)
+(cfunc magic_close :arguments ((arg0 magic_t)))
+
+(cfunc magic_file  :arguments ((arg0 magic_t) (arg1 ffi:c-string))
     :return-type ffi:c-string)
-(cfunc magic_descriptor "magic_descriptor" 
-    :arguments ((arg0 magic_t) (arg1 ffi:int))
+
+(cfunc magic_descriptor :arguments ((arg0 magic_t) (arg1 ffi:int))
     :return-type ffi:c-string)
-(cfunc magic_buffer "magic_buffer" 
+
+(cfunc magic_buffer 
     :arguments ((arg0 magic_t) (arg1 (ffi:c-pointer NIL)) (arg2 size_t))
     :return-type ffi:c-string)
-(cfunc magic_error "magic_error" :arguments ((arg0 magic_t)) 
-    :return-type ffi:c-string)
-(cfunc magic_setflags "magic_setflags" 
-    :arguments ((arg0 magic_t) (arg1 ffi:int))
+
+(cfunc magic_error :arguments ((arg0 magic_t)) :return-type ffi:c-string)
+
+(cfunc magic_setflags :arguments ((arg0 magic_t) (arg1 ffi:int))
     :return-type ffi:int)
-(cfunc magic_load "magic_load" :arguments ((arg0 magic_t) (arg1 ffi:c-string))
+
+(cfunc magic_load :arguments ((arg0 magic_t) (arg1 ffi:c-string))
     :return-type ffi:int)
-(cfunc magic_compile "magic_compile" :arguments ((arg0 magic_t) (arg1 ffi:c-string))
+
+(cfunc magic_compile :arguments ((arg0 magic_t) (arg1 ffi:c-string))
     :return-type ffi:int)
-(cfunc magic_check "magic_check" :arguments ((arg0 magic_t) (arg1 ffi:c-string))
+
+(cfunc magic_check :arguments ((arg0 magic_t) (arg1 ffi:c-string))
     :return-type ffi:int)
-(cfunc magic_errno "magic_errno" :arguments ((arg0 magic_t)) :return-type ffi:int)
+
+(cfunc magic_errno :arguments ((arg0 magic_t)) :return-type ffi:int)
