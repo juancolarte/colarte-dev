@@ -1,0 +1,14 @@
+# .github/workflows/runit.yml
+name: "Comment Content"
+on:
+  issue_comment:
+    types: [created, edited]
+
+jobs:
+  runit:
+    runs-on: ubuntu-20.04
+    steps:
+    - name: print body
+      env:
+        BODY: ${{ github.event.comment.body }}
+      run: echo "$BODY"
